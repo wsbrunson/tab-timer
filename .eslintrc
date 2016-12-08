@@ -21,44 +21,35 @@
 		"esnext": true
 	},
   "rules": {
-			"arrow-body-style": 0,
-			"react/prop-types": 0,
-			"react/jsx-indent": 0,
-			"react/jsx-indent-props": [0],
-			"react/jsx-no-bind": [0],
-      "semi": [2, "always"],
-      "quotes": [2, "single"],
-			"no-trailing-spaces": [0],
-			"no-underscore-dangle": [0],
-			"space-before-function-paren": [2, "never"],
-			"indent": [2, "tab"],
-			"flowtype/define-flow-type": 1,
-    "flowtype/no-weak-types": 1,
-    "flowtype/require-parameter-type": 1,
-    "flowtype/require-return-type": [
-      1,
-      "always",
-      {
-        "annotateUndefined": "never"
-      }
-    ],
-    "flowtype/semi": [
-      1,
-      "always"
-    ],
-    "flowtype/space-after-type-colon": [
-      1,
-      "always"
-    ],
-    "flowtype/space-before-type-colon": [
-      1,
-      "never"
-    ],
-    "flowtype/type-id-match": [
-      1,
-      "^([A-Z][a-z0-9]+)+Type$"
-    ],
-    "flowtype/use-flow-type": 1,
-    "flowtype/valid-syntax": 1
-		}
+        "arrow-body-style": 0,
+        "react/prop-types": 0,
+        "react/jsx-indent": 0,
+        "react/jsx-indent-props": [0],
+        "react/jsx-no-bind": [0],
+        "react/sort-comp": 0,
+        "semi": [2, "always"],
+        "quotes": [2, "single"],
+        "no-trailing-spaces": [0],
+        "no-underscore-dangle": [0],
+        "space-before-function-paren": [2, "never"],
+        "indent": [2, "tab"],
+        "no-else-return": 0,
+
+        "flowtype/define-flow-type": 1,
+        "flowtype/no-weak-types": 0,
+        "flowtype/semi": [
+            1,
+            "always"
+        ],
+        "flowtype/space-after-type-colon": [
+            1,
+            "always"
+        ],
+        "flowtype/space-before-type-colon": [
+            1,
+            "never"
+        ],
+        "flowtype/use-flow-type": 1,
+        "flowtype/valid-syntax": 1
+        }
 }

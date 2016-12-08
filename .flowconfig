@@ -1,1 +1,7 @@
 [ignore]
+./node_modules/fbjs/lib/Deferred.js.flow
+./node_modules/fbjs/lib/shallowEqual.js.flow
+
+[libs]
+./flow-typed/npm/enzyme_v2.x.x.js
+./flow-typed/npm/jasmine_v2.4.x.js

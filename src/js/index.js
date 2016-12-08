@@ -2,9 +2,9 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import App from './components/App';
+import App from './components/AppComponent/App';
 
-import '../css/main.scss';
+// import '../css/main.scss';
 
 // For testing, so that the app gets added to PhantomJS DOM
 const entryId = 'app';
