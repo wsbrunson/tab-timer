@@ -2,7 +2,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import TimePicker from './TimePicker';
+import TimePicker from '../TimePicker';
 
 describe('TimePicker Component', () => {
 	it('should render', () => {

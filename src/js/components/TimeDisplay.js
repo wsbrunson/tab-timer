@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 
-import { formatTimeString } from '../../utilities/time';
+import { formatTimeString } from '../utilities/time';
 
 type TypeTimeDisplayProps = {
 	time: number

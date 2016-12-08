@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 
-import Countdown from './Countdown';
+import Countdown from '../Countdown';
 
 let Component;
 

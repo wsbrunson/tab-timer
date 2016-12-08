@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 
-import TimeDisplay from '../TimeDisplayComponent/TimeDisplay';
+import TimeDisplay from './TimeDisplay';
 
 type TypeCountdownProps = {
 	startingTime: number

@@ -1,7 +1,8 @@
+// @flow
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import TimeDisplay from './TimeDisplay';
+import TimeDisplay from '../TimeDisplay';
 
 describe('TimeDisplay Component', () => {
 	it('should render', () => {
