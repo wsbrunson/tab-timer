@@ -1,14 +1,14 @@
 // @flow
-import React from 'react';
+import React from 'react'
 
-import { formatTimeString } from '../utilities/time';
+import { formatTimeString } from '../utilities/time'
 
 type TypeTimeDisplayProps = {
-	time: number
-};
+  time: number
+}
 
 const TimeDisplay = ({ time }: TypeTimeDisplayProps) => (
-	<span className="TimeDisplay">{formatTimeString(time)}</span>
-);
+  <span className='TimeDisplay'>{formatTimeString(time)}</span>
+)
 
-export default TimeDisplay;
+export default TimeDisplay

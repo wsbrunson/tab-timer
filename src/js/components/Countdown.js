@@ -1,49 +1,47 @@
 // @flow
-import React from 'react';
+import React, { Component } from 'react'
 
-import TimeDisplay from './TimeDisplay';
+import TimeDisplay from './TimeDisplay'
 
 type TypeCountdownProps = {
-	startingTime: number
+  startingTime: number
 };
 
 type TypeCountdownState = {
-	currentTime: number
+  currentTime: number
 };
 
-class Countdown extends React.Component {
-	props: TypeCountdownProps
-	state: TypeCountdownState
+class Countdown extends Component {
+  props: TypeCountdownProps
+  state: TypeCountdownState
 
-	constructor(props: TypeCountdownProps) {
-		super(props);
+  constructor (props: TypeCountdownProps) {
+    super(props)
 
-		this.state = {
-			currentTime: props.startingTime,
-		};
-	}
+    this.state = {
+      currentTime: props.startingTime
+    }
+  }
 
-	componentDidMount() {
-		const SECOND = 1000;
+  componentDidMount () {
+    const SECOND = 1000
 
-		const countdownInterval = window.setInterval(() => {
-			const { currentTime } = this.state;
+    const countdownInterval = window.setInterval(() => {
+      const { currentTime } = this.state
 
-			if (currentTime <= 0) {
-				window.clearInterval(countdownInterval);
-			} else {
-				this.setState({
-					currentTime: currentTime - SECOND,
-				});
-			}
-		}, SECOND);
-	}
+      if (currentTime <= 0) {
+        window.clearInterval(countdownInterval)
+      } else {
+        this.setState({
+          currentTime: currentTime - SECOND
+        })
+      }
+    }, SECOND)
+  }
 
-	render() {
-		return (
-            <TimeDisplay time={this.state.currentTime} />
-        );
-	}
+  render () {
+    return <TimeDisplay time={this.state.currentTime} />
+  }
 }
 
-export default Countdown;
+export default Countdown

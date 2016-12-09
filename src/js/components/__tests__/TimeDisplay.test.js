@@ -1,13 +1,13 @@
 // @flow
-import React from 'react';
-import { shallow } from 'enzyme';
+import React from 'react'
+import { shallow } from 'enzyme'
 
-import TimeDisplay from '../TimeDisplay';
+import TimeDisplay from '../TimeDisplay'
 
 describe('TimeDisplay Component', () => {
-	it('should render', () => {
-		const Component = shallow(<TimeDisplay time={9234} />);
+  it('should render', () => {
+    const Component = shallow(<TimeDisplay time={9234} />)
 
-		expect(Component.length).toBeTruthy();
-	});
-});
+    expect(Component.length).toBeTruthy()
+  })
+})
