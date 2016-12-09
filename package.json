@@ -43,9 +43,7 @@
     "standard": "^8.6.0",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.13",
-    "webpack-dev-server": "^1.14.1"
-  },
-  "devDependencies": {
+    "webpack-dev-server": "^1.14.1",
     "babel-jest": "^16.0.0",
     "babel-plugin-transform-flow-strip-types": "^6.14.0",
     "babel-polyfill": "^6.16.0",
@@ -53,23 +51,23 @@
     "jest": "^16.0.1"
   },
   "standard": {
-	"parser": "babel-eslint",
-    "ignore": [
-      "/flow-typed"
-    ],
-    "globals": [
-      "describe",
-      "xdescribe",
-      "fdescribe",
-      "it",
-      "xit",
-      "fit",
-      "expect",
-      "beforeEach",
-      "afterEach"
-    ],
-    "plugins": [
-      "flowtype"
-    ]
+    "parser": "babel-eslint",
+      "ignore": [
+        "/flow-typed"
+      ],
+      "globals": [
+        "describe",
+        "xdescribe",
+        "fdescribe",
+        "it",
+        "xit",
+        "fit",
+        "expect",
+        "beforeEach",
+        "afterEach"
+      ],
+      "plugins": [
+        "flowtype"
+      ]
   }
 }
