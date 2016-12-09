@@ -6,11 +6,10 @@
   "repository": "https://github.com/wsbrunson/tab-timer",
   "scripts": {
     "dev": "WEBPACK_ENV=dev webpack-dev-server --config webpack.config.js",
-    "test": "jest --coverage",
+    "test": "standard && flow && jest",
     "test:watch": "jest --coverage --watch",
     "flow": "flow",
-    "lint": "standard --fix",
-    "validate": "standard && flow && jest"
+    "lint": "standard --fix"
   },
   "author": "Shane Brunson",
   "license": "MIT",
